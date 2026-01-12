@@ -1,0 +1,50 @@
+<div class="container">
+  <header>
+    <h1>{{ title }}</h1>
+    <p>Testing automated semantic versioning with Django REST API and Angular</p>
+  </header>
+
+  <main>
+    <section class="info-section">
+      <h2>About This Project</h2>
+      <p>
+        This is a test project demonstrating automated semantic versioning using:
+      </p>
+      <ul>
+        <li><strong>Backend:</strong> Django REST Framework with python-semantic-release</li>
+        <li><strong>Frontend:</strong> Angular with semantic-release</li>
+      </ul>
+      <p>
+        Both repositories use GitHub Actions to automatically version releases based on conventional commits.
+      </p>
+    </section>
+
+    <section class="api-section">
+      <h2>API Endpoints</h2>
+      <p>The backend provides simple Widget and Cog REST endpoints for testing:</p>
+      <ul>
+        <li><code>GET /api/widgets/</code> - List widgets</li>
+        <li><code>GET /api/cogs/</code> - List cogs</li>
+        <li><code>GET /api/version/</code> - Get API version</li>
+      </ul>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div *ngIf="loading">
+    <p>Loading version information...</p>
+  </div>
+  <div *ngIf="!loading && !error">
+    <p><strong>Frontend Version:</strong> {{ frontendVersion }}</p>
+    <p><strong>Backend Version:</strong> {{ backendVersion }} ({{ backendApiName }})</p>
+  </div>
+  <div *ngIf="error" style="color: #ff6b6b;">
+    <p>{{ error }}</p>
+    <p><strong>Frontend Version:</strong> {{ frontendVersion }}</p>
+  </div>
+  <p style="margin-top: 10px; font-size: 12px; opacity: 0.8;">
+    &copy; 2026 Automated SemVer Test Project
+  </p>
+</footer>
+
