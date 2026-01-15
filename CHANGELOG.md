@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/danehorak/automated-semver-frontend/compare/v1.0.1...v1.0.2) (2026-01-15)
+
+
+### Bug Fixes
+
+* remove EXAMPLE.md ([157b6cf](https://github.com/danehorak/automated-semver-frontend/commit/157b6cfa651061d7cb32b44799d6477f6d2d2c02))
+
 ## [1.0.1](https://github.com/danehorak/automated-semver-frontend/compare/v1.0.0...v1.0.1) (2026-01-15)
 
 
