@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/danehorak/automated-semver-frontend/compare/v1.0.2...v1.0.3) (2026-01-15)
+
+
+### Bug Fixes
+
+* adding new REALLY cool file ([0df3408](https://github.com/danehorak/automated-semver-frontend/commit/0df34083233bd318da2756e821a552fd9c238b0a))
+
 ## [1.0.2](https://github.com/danehorak/automated-semver-frontend/compare/v1.0.1...v1.0.2) (2026-01-15)
 
 
