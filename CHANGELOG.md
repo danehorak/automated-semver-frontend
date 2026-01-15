@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/danehorak/automated-semver-frontend/compare/v1.0.0...v1.0.1) (2026-01-15)
+
+
+### Bug Fixes
+
+* Add Example.md and update package.json ([b24c0ae](https://github.com/danehorak/automated-semver-frontend/commit/b24c0ae91600555f797a4eb7bff7a753e5109c48))
+
 # 1.0.0 (2026-01-15)
 
 
