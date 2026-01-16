@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/danehorak/automated-semver-frontend/compare/v1.0.3...v1.0.4) (2026-01-16)
+
+
+### Bug Fixes
+
+* date format ([4cbc4e4](https://github.com/danehorak/automated-semver-frontend/commit/4cbc4e4b253e5aa45c8db8805dc6cf94fc07ff9a))
+
 ## [1.0.3](https://github.com/danehorak/automated-semver-frontend/compare/v1.0.2...v1.0.3) (2026-01-15)
 
 
